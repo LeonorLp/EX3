@@ -7,15 +7,27 @@ body{
 /*divisão*/
 
 .split{
-    height: 150%;
+    height: 100%;
     width: 100%;
-    top: 0;
     overflow: hidden;
-    margin-top: 5%;
+}
+
+.split_index{
+    background-color: #fef9ef;
 }
 
 .split_about{
     background-color: #facfad;
+    margin-top: -1%;
+}
+.split_work{
+    background-color: #f8bd7f;
+    margin-top: -1%;
+}
+
+.split_contact{
+    background-color: #022f40;
+    margin-top: -1%;
 }
 
 
@@ -26,8 +38,18 @@ h1{
 }
 
 #Ab{
-    color: #022f40;
+    color: #fef9ef;
    /* color: white;*/
+}
+
+#Wk{
+    color: #022f40;
+    /* color: white;*/
+}
+
+#Ct{
+    color: #f8bd7f;
+    /* color: white;*/
 }
 
 /*menu*/
@@ -63,9 +85,10 @@ a  {
 }
 
 #img_index{
-    width: 364px;
-    height: 468px;
+    width: 404px;
+    height: 508px;
     float: right;
+    margin-top: 0.5%;
 
 }
 #intro{
@@ -78,13 +101,13 @@ a  {
 /*imagem e texto about*/
 
 .box2 {
-    margin: 5vw 15vw;
+    margin: 5vw 13vw;
     border: none;
-    width: 70%;
+    width: 72%;
 }
 
 #img_about{
-    width: 458px;
+    width: 488px;
     height: 688px;
     float: left;
 }
@@ -95,6 +118,61 @@ a  {
     font-size: 25px;
     color: #022f40;
 }
+
+/*imagem works*/
+
+.box3 {
+    margin: 5vw 35vw;
+    border: none;
+    width: 30%;
+}
+
+#img_works{
+    width: 447px;
+    height: 552px;
+    margin-left: auto;
+    margin-right: auto ;
+    display: block;
+    margin-top: -15%;
+    margin-bottom: 25%;
+
+}
+
+/*imagem e texto contacts*/
+
+.box4 {
+    margin: 5vw 13vw;
+    border: none;
+    width: 65%;
+}
+
+#img_contact{
+    width: 447px;
+    height: 552px;
+    float: left;
+}
+
+#contact{
+    color: #f8bd7f;
+    font-size: 25px;
+    float: right;
+    margin-top: 15%;
+
+}
+#nome_insta{
+    color: #f8bd7f;
+    font-size: 25px;
+}
+#nome_link{
+    color: #f8bd7f;
+    font-size: 25px;
+}
+#nome_beh{
+    color: #f8bd7f;
+    font-size: 25px;
+}
+
+
 
 /*------------------------------------------Grid------------------------------------------*/
 /*Valores grelha*/
