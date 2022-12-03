@@ -1,16 +1,36 @@
-.box {
-    margin: 5vw 15vw;
-    border: none;
-    width: 70%;
-}
-
 body{
-    font-family: Montserrat;
+    font-family: "Montserrat Medium";
     margin:0;
     padding: 0;
     font-size: 35px;
 }
+/*divisão*/
 
+.split{
+    height: 150%;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+.split_about{
+    background-color: #facfad;
+}
+
+
+/*titulos*/
+
+h1{
+    margin: 5vw 15vw;
+}
+
+#Ab{
+    color: #022f40;
+   /* color: white;*/
+}
+
+/*menu*/
 
 ul {
     list-style-type: none;
@@ -27,11 +47,19 @@ li{
 
 a  {
     display: inline-block;
-    color: #3e4e50;
+    color: #022f40;
     text-align: center;
     padding: 10px 12px;
     text-decoration: none;
     position: sticky;
+}
+
+/*texto e iamgem intro*/
+
+.box {
+    margin: 5vw 15vw;
+    border: none;
+    width: 70%;
 }
 
 #img_index{
@@ -42,28 +70,31 @@ a  {
 }
 #intro{
     float: left;
-    margin-top: 100px;
     font-size: 50px;
+    color: #022f40;
+    margin-top: 5%;
 }
+
+/*imagem e texto about*/
+
 .box2 {
     margin: 5vw 15vw;
     border: none;
-    width: 80%;
+    width: 70%;
 }
 
 #img_about{
-    width: 498px;
-    height: 738px;
+    width: 458px;
+    height: 688px;
     float: left;
 }
 
 #about{
     float: right;
-    margin-top: 100px;
-    font-size: 50px;
+    margin-top: 0px;
+    font-size: 25px;
+    color: #022f40;
 }
-
-
 
 /*------------------------------------------Grid------------------------------------------*/
 /*Valores grelha*/
@@ -78,7 +109,7 @@ a  {
     box-sizing: border-box;
 }
 .row {
-    min-height: 10px;
+    min-height: 15px;
     clear: both;
 }
 [class*='col'] {
