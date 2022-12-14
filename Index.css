@@ -3,6 +3,7 @@ body{
     margin:0;
     padding: 0;
     font-size: 35px;
+    background-color: #fef9ef;
 }
 /*divisão*/
 
@@ -172,6 +173,47 @@ a  {
     font-size: 25px;
 }
 
+/* Animação */
+
+
+.word{
+    animation: color-animation 3s linear infinite;
+}
+
+.word1{
+    --color-1:#022f40;
+    --color-2:#f8bd7f;
+}
+.word2{
+    --color-1:#022f40;
+    --color-2:#f8bd7f;
+}
+.word3{
+    --color-1:#022f40;
+    --color-2:#f8bd7f;
+}
+.A1{
+    --color-1:#022f40;
+    --color-2:#fef9ef;
+}
+.W2{
+    --color-1:#022f40;
+    --color-2:#fef9ef;
+}
+.C3{
+    --color-1:#fef9ef;
+    --color-2:#f8bd7f;
+}
+
+@keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-2)}
+    99%   {color: var(--color-1)}
+    100%  {color: var(--color-1)}
+}
 
 
 /*------------------------------------------Grid------------------------------------------*/
