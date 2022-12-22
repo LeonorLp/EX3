@@ -151,26 +151,26 @@ a  {
     width: 447px;
     height: 552px;
     float: left;
+    margin-left: 100px;
 }
 
 #contact{
     color: #f8bd7f;
-    font-size: 25px;
     float: right;
-    margin-top: 15%;
-
+    margin-top: 10%;
+    margin-right: 150px;
 }
 #nome_insta{
-    color: #f8bd7f;
-    font-size: 25px;
+    width: 70px;
+    height: 70px;
 }
 #nome_link{
-    color: #f8bd7f;
-    font-size: 25px;
+    width: 70px;
+    height: 70px;
 }
 #nome_beh{
-    color: #f8bd7f;
-    font-size: 25px;
+    width: 70px;
+    height: 70px;
 }
 
 /* Animação */
@@ -241,7 +241,7 @@ a  {
 }
 
 /*Valores Desktop*/
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 320px) {
     [class*='col-d'] {
         margin-left: 2%;
         /* calc(22%/11); */
@@ -290,5 +290,6 @@ a  {
     .grid [class*='col']:empty {
         height: 50px;
     }
+
 }
 
