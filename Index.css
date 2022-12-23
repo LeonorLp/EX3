@@ -15,21 +15,19 @@ body{
 
 .split_index{
     background-color: #fef9ef;
+    margin-top: -8%;
 }
 
 .split_about{
     background-color: #facfad;
-    margin-top: -1% ;
-    margin-top: -1rem;
+
 }
 .split_work{
     background-color: #f8bd7f;
-    margin-top: -1%;
 }
 
 .split_contact{
     background-color: #022f40;
-    margin-top: -1%;
 }
 
 
@@ -63,7 +61,6 @@ ul {
 
 li{
     display: inline-block;
-
 }
 
 a  {
@@ -75,7 +72,7 @@ a  {
     position: sticky;
 }
 
-/*texto e iamgem intro*/
+/*texto e imagem intro*/
 
 .box {
     margin: 5vw 15vw;
@@ -87,14 +84,14 @@ a  {
     width: 404px;
     height: 508px;
     float: right;
-    margin-top: 0.5%;
+    margin-top: 14%;
 
 }
 #intro{
     float: left;
     font-size: 50px;
     color: #022f40;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 /*imagem e texto about*/
@@ -142,7 +139,7 @@ a  {
 .box4 {
     margin: 5vw 13vw;
     border: none;
-    width: 65%;
+    width: 75%;
 }
 
 #img_contact{
@@ -213,19 +210,88 @@ a  {
     100%  {color: var(--color-1)}
 }
 
+@media only screen and (min-width: 768px) and (max-width: 992px){
+
+    #Ab{
+        margin: 10vw 10vw;
+        font-size: 110px;
+    }
+    #Wk{
+        margin: 10vw 10vw;
+        font-size: 110px;
+    }
+    #Ct{
+        margin: 10vw 10vw;
+        font-size: 110px;
+    }
+
+    a  {
+        font-size: 65px;
+        padding: 40px 40px;
+    }
+
+    .box {
+        width: 66%;
+    }
+
+    #img_index{
+        width: 564px;
+        height: 698px;
+        margin-top: 15%;
+    }
+    #intro{
+        font-size: 70px;
+        margin-top: 27%;
+    }
+
+    .box2 {
+        margin: 5vw 15vw;
+        width: 67%;
+    }
+    #img_about{
+        width: 720px;
+        height: 1020px;
+        margin-top: 20%;
+    }
+    #about {
+        font-size: 40px;
+    }
+
+    .box3 {
+        margin: 5vw 10vw;
+        width: 80%;
+    }
+    #img_works{
+        width: 707px;
+        height: 812px;
+        margin-top: -3%;
+    }
+
+    #img_contact{
+        width: 447px;
+        height: 562px;
+        margin-left: 140px;
+    }
+    #contact{
+        margin-top: 10%;
+        margin-right: 175px;
+        font-size:35px;
+    }
+    #nome_insta{
+        width: 60px;
+        height: 60px;
+    }
+    #nome_link{
+        width: 60px;
+        height: 60px;
+    }
+    #nome_beh{
+        width: 60px;
+        height: 60px;
+    }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 600px){
-
-    /*divisão*/
-
-    .split_about{
-        margin-top: -0%;
-    }
-    .split_work{
-        margin-top: -0%;
-    }
-    .split_contact{
-        margin-top: -0%;
-    }
 
     /*titulos*/
 
@@ -252,13 +318,16 @@ a  {
         padding: 40px 40px;
     }
 
-    /*texto e iamgem intro*/
+    /*intro*/
 
     .box {
         width: 80%;
     }
+    #img_index{
+        margin-top: 10%;
+    }
 
-    /*imagem e texto about*/
+    /*about*/
 
     .box2 {
         margin: 5vw 9vw;
@@ -269,7 +338,7 @@ a  {
         height: 620px;
     }
 
-    /*imagem works*/
+    /*works*/
 
     .box3 {
         margin: 5vw 2vw;
@@ -282,31 +351,33 @@ a  {
         margin-top: -3%;
     }
 
-    /*imagem e texto contacts*/
+    /*contacts*/
 
     .box4 {
-        margin: 5vw 8vw;
+        margin: 5vw 0vw ;
         border: none;
-        width: 85%;
+        width: 100%;
     }
-
     #img_contact{
         width: 397px;
-        height: 512px;
-        margin-left: 0px;
+        height: 502px;
+        margin-left: 40px;
     }
-
+    #contact{
+    font-size: 22px;
+    margin-left: 40px;
+    }
     #nome_insta{
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
     }
     #nome_link{
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
     }
     #nome_beh{
-        width: 70px;
-        height: 70px;
+        width: 40px;
+        height: 40px;
     }
 
 
