@@ -124,8 +124,6 @@ a  {
 }
 
 #img_works{
-    width: 447px;
-    height: 552px;
     margin-left: auto;
     margin-right: auto ;
     display: block;
@@ -143,8 +141,6 @@ a  {
 }
 
 #img_contact{
-    width: 447px;
-    height: 552px;
     float: left;
     margin-left: 100px;
 }
@@ -262,14 +258,10 @@ a  {
         width: 80%;
     }
     #img_works{
-        width: 707px;
-        height: 812px;
         margin-top: -3%;
     }
 
     #img_contact{
-        width: 447px;
-        height: 562px;
         margin-left: 140px;
     }
     #contact{
@@ -346,8 +338,6 @@ a  {
     }
 
     #img_works{
-        width: 387px;
-        height: 492px;
         margin-top: -3%;
     }
 
@@ -359,8 +349,6 @@ a  {
         width: 100%;
     }
     #img_contact{
-        width: 397px;
-        height: 502px;
         margin-left: 40px;
     }
     #contact{
